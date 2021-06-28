@@ -1,0 +1,36 @@
+.form-body {
+    min-height: 100vh;
+    background-color: #24353F;
+}
+.form-body .shadow-lg {
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0)!important;
+}
+h1 {
+    color: #17a2b8;
+} 
+.form-inputs input {
+    background-color: inherit;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+    font-size: 18px;
+    border-color: #fff;
+}
+.form-inputs input:focus {
+    background-color: inherit;
+    box-shadow: none;
+    color: #fff;
+}
+.form-inputs input::placeholder {
+    color: #ccc;
+}
+.error-msg {
+    display: none;
+}
+.form-inputs .btn, .form-inputs .btn:hover, .form-inputs .btn:focus {
+    border: 1px solid #17a2b8;
+    color: #17a2b8!important;
+    font-size: 18px;
+    box-shadow: none;
+}
